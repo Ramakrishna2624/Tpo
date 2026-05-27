@@ -3020,6 +3020,7 @@
           opacity: 0;
           transform: translateY(60px);
         }
+
         to {
           opacity: 1;
           transform: translateY(0);
@@ -3264,7 +3265,8 @@
     }
 
     /* ── Utility: prevent horizontal scroll on all sizes ── */
-    body, html {
+    body,
+    html {
       max-width: 100%;
       overflow-x: hidden;
     }
@@ -3276,7 +3278,11 @@
 
     /* Touch-friendly tap targets */
     @media (max-width: 768px) {
-      .btn, .tab-btn, .nav-links a, .footer-links a {
+
+      .btn,
+      .tab-btn,
+      .nav-links a,
+      .footer-links a {
         min-height: 44px;
         display: inline-flex;
         align-items: center;
@@ -3297,7 +3303,9 @@
       }
 
       /* Prevent zoom on input focus on iOS */
-      input, select, textarea {
+      input,
+      select,
+      textarea {
         font-size: 16px !important;
       }
     }
@@ -3622,7 +3630,7 @@
     <!-- ==========================================================================
          HERO SECTION
          ========================================================================== -->
-    <section class="hero-section" id="hero">
+    <section class="hero-section" id="enquiry">
       <div class="container hero-grid grid grid-2">
         <div class="hero-content reveal-on-scroll">
           <div class="hero-badge">
